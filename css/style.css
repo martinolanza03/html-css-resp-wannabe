@@ -136,8 +136,20 @@ img {
     }
 
     .row {
-        display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    div.row div.col {
+        width: 100%;
+        margin-bottom: 65px;
+    }
+
+    .steps {
+        margin-bottom:  0;
+    }
+
+    section.why-us div.col.col-right {
+        margin-bottom: 0;
     }
 }
