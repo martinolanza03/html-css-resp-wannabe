@@ -144,8 +144,16 @@ img {
         width: 100%;
         margin-bottom: 65px;
     }
-    
+
     section.why-us div.col.col-right {
         margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
     }
 }
